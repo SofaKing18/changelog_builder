@@ -21,3 +21,12 @@ Style/MultilineBlockChain:
 
 Lint/AmbiguousBlockAssociation:
   Enabled: false
+
+Layout/IndentFirstHashElement:
+  Enabled: false
+
+Layout/IndentFirstArrayElement:
+  Enabled: false
+
+Layout/AlignHash:
+  Enabled: false
