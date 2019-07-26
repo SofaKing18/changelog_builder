@@ -1,4 +1,4 @@
 # frozen_string_literal: true
 
-RSpec.describe ChanglelogBuilder::DataFetching::GitLog do
+RSpec.describe ChangelogBuilder::DataFetching::GitLog do
 end

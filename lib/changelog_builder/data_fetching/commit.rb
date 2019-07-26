@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module ChanglelogBuilder
+module ChangelogBuilder
   module DataFetching
     class Commit
       attr_accessor :author, :comment, :tag

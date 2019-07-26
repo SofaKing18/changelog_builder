@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-RSpec.describe ChanglelogBuilder do
+RSpec.describe ChangelogBuilder do
   it 'has a version number' do
-    expect(ChanglelogBuilder::VERSION).not_to be nil
+    expect(ChangelogBuilder::VERSION).not_to be nil
   end
 
   it 'does something useful' do

@@ -2,11 +2,11 @@
 
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'changlelog_builder/version'
+require 'changelog_builder/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'changlelog_builder'
-  spec.version       = ChanglelogBuilder::VERSION
+  spec.name          = 'changelog_builder'
+  spec.version       = ChangelogBuilder::VERSION
   spec.authors       = ['d.shpagin']
   spec.email         = ['d.shpagin@fun-box.ru']
 

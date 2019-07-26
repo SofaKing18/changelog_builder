@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module ChanglelogBuilder
+module ChangelogBuilder
   module DataFetching
     class LogParser
       def parse_strings(strings)

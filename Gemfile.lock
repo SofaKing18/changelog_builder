@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    changlelog_builder (0.1.0)
+    changelog_builder (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -42,7 +42,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.0)
-  changlelog_builder!
+  changelog_builder!
   rake (~> 10.0)
   rspec (~> 3.0)
   rubocop

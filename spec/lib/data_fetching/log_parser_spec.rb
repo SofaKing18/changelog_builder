@@ -1,4 +1,4 @@
 # frozen_string_literal: true
 
-RSpec.describe ChanglelogBuilder::DataFetching::LogParser do
+RSpec.describe ChangelogBuilder::DataFetching::LogParser do
 end

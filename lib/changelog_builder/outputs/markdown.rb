@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-module ChanglelogBuilder
+module ChangelogBuilder
   module Outputs
-    class Json
+    class Markdown
     end
   end
 end

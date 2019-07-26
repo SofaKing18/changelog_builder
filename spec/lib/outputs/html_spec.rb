@@ -1,4 +1,4 @@
 # frozen_string_literal: true
 
-RSpec.describe ChanglelogBuilder::Outputs::Html do
+RSpec.describe ChangelogBuilder::Outputs::Html do
 end
