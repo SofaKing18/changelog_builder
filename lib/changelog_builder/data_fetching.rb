@@ -9,11 +9,11 @@ module ChangelogBuilder
     SEP_SEQ = '<-^_^->'
 
     FIELDS = {
-      commit_hash: '%h',
-      commit_description: '%s',
-      author: '%an',
-      time: '%ct',
-      meta_info: '%d'
+      'commit_hash' => '%h',
+      'commit_description' => '%s',
+      'author' => '%an',
+      'time' => '%ct',
+      'meta_info' => '%d'
     }.freeze
   end
 end
