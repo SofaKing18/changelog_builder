@@ -4,5 +4,7 @@ require_relative 'outputs/html'
 require_relative 'outputs/json'
 require_relative 'outputs/markdown'
 
-module Outputs
+module ChangelogBuilder
+  module Outputs
+  end
 end
