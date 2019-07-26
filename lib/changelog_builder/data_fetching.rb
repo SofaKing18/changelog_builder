@@ -15,5 +15,20 @@ module ChangelogBuilder
       'time' => '%ct',
       'meta_info' => '%d'
     }.freeze
+
+    def self.history
+      commit_strings = GitLog.new.fetch_commits
+      parsed_strings = LogParser.new.parse_strings(commit_strings)
+
+      intermediate_tag = nil
+      parsed_strings.map do |hash|
+        hash = Hash[hash.map { |k, v| [k.to_sym, v] }]
+
+        Commit.new(hash).tap do |commit|
+          intermediate_tag = commit.tag || intermediate_tag
+          commit.tag = intermediate_tag
+        end
+      end
+    end
   end
 end
