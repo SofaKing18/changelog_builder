@@ -4,6 +4,8 @@ require 'changelog_builder/version'
 require 'changelog_builder/data_fetching'
 require 'changelog_builder/outputs'
 
+require 'oj'
+
 module ChangelogBuilder
   class Error < StandardError; end
   # Your code goes here...
