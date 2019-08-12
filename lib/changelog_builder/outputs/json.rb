@@ -3,7 +3,7 @@
 module ChangelogBuilder
   module Outputs
     class Json
-      def save(commits)
+      def dump(commits)
         hash_array = commits.map do |commit|
           commit_to_hash(commit)
         end
